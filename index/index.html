@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>PhoneBook App</title>
+</head>
+<body>
+    <div class="container card">
+        <div><h1 class="text-center p-2">Save Your Contacts</h1></div>
+        <div>
+            <div class="mt-4">
+                <button type="button" class="btn-primary rounded-3 p-1 "><a href="contact.html" class="text-white link"> Show Contacts</a></button>
+            </div>
+            <div class="rounded-circle text-center">
+                <img src="img_avatar.png" alt="Avatar" class=" avatar " style="width: 150px">
+            </div>
+        </div>
+    
+        <div id="inputs" class="text-center mt-5">
+            <form action="" method="post" id="form" onsubmit ="phonebookFormValidation()" >
+                <input id="userName" type="text" placeholder="Name" name="Name"  class="p-1 w-50" >
+                <p id="error" class=""></p>
+                <br>
+                 <!-- <input type="text" placeholder="Phone number" class="p-1 w-50" name="Telephone" id="phoneNumber">
+                <p id="error" class=""></p>
+                <br>
+        
+                <input type="text" placeholder=" Email" name="Email"  class="p-1 w-50 " id="emailAddress">
+                <p id="error" class=""></p>
+                <br>
+                <input type="text" placeholder="Address" name="Address" class="p-1 w-50" id="address">
+                <p id="error" class=""></p>  -->
+                <input type="submit" id="buttn" class="btn-primary rounded-3 p-2 mt-4" />
+            </form>
+            
+            
+        </div>
+        <div class="text-center">
+           
+        </div>
+
+    </div>
+    
+</body>
+<script src="../jsFile/phonebook.js"></script>
+</html>

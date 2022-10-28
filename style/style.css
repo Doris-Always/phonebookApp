@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: white;
+   
+}
+.container{
+    background-origin: 1px solid black;
+}
+.card{
+    height: 100vh;
+}
+.link{
+    text-decoration: none;
+}
+.btn-primary{
+    background-color: green;
+    border: 1px solid green;
+}
+#error{
+    color: red;
+}
+input[type="text"]{
+    outline: none;
+}
+.errorColor{
+    border: 2px dotted red;
+}
+.verified{
+    border: 2px solid green;
+}
